@@ -252,6 +252,21 @@
     .nav-book { padding: 10px 12px; }
   }
 
+  @media (max-width: 680px) {
+    .hero { padding-block: 32px 12px; }
+    .hero-eyebrow { margin-bottom: 14px; }
+    .hero-lead { margin-top: 18px; }
+    .hero-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 28px; }
+    .hero-actions .btn { grid-column: 1 / -1; margin-right: 0; justify-content: center; }
+    .hero-actions .icon-link { width: 100%; height: 52px; }
+    .section { padding-block: 52px; }
+    .section-grid { gap: 10px; }
+    .clients { gap: 32px; margin-top: 28px; }
+    .ai-grid { gap: 28px; margin-top: 28px; }
+    .ai-conclusion { margin-top: 20px; }
+    .cv { margin-top: 32px; padding-top: 24px; }
+  }
+
   .about-wrap { min-width: 0; }
   .cv { margin-top: 56px; padding-top: 36px; border-top: 1px solid var(--rule); }
   .cv-title { font-size: 1.15rem; margin-bottom: 14px; }
